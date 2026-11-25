@@ -1,0 +1,23 @@
+{
+  "name": "bow-paper-tune-lab",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "浏览器端纸靶调弓推演系统 - TypeScript + three.js + IndexedDB",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "vitest run",
+    "selfcheck": "vitest run src/core/selfcheck.test.ts"
+  },
+  "dependencies": {
+    "three": "0.170.0"
+  },
+  "devDependencies": {
+    "@types/three": "0.170.0",
+    "typescript": "5.6.3",
+    "vite": "5.4.11",
+    "vitest": "2.1.8"
+  }
+}
